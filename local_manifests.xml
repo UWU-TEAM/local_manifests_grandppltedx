@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="AnGgIt86" fetch="https://github.com/AnGgIt86" clone-depth="1" />
+    <remote name="almondnguyen" fetch="https://github.com/almondnguyen" clone-depth="1" />
+
+    <!-- Device -->
+    <project path="device/samsung/grandppltedx" name="android_device_samsung_grandppltedx" remote="almondnguyen" revision="cm-14.1" />
+
+    <!-- Vendor -->
+    <project path="vendor/samsung/grandppltedx" name="android_vendor_samsung_grandppltedx" remote="almondnguyen" revision="cm-14.1" />
+
+    <!-- Kernel -->
+    <project path="kernel/samsung/grandppltedx" name="android_kernel_samsung_grandppltedx" remote="AnGgIt86" revision="main" />
+</manifest>
